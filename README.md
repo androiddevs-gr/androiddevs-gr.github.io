@@ -1,7 +1,7 @@
 # androiddevs-gr.github.io
 
 GitHub page for the request invite web page for the Greek Android Development Slack team.
-Currently, the [Materializecss framework](https://www.materializecss.com/about) is used which allows quick access to Material Design components.
+Currently, the [Materializecss framework](http://www.materializecss.com/about) is used which allows quick access to Material Design components.
 
 
 ## Creating a Pull Request
