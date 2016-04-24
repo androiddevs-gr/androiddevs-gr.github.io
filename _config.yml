@@ -1,13 +1,13 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        Greek Android Development
+tagline:      Η ελληνόφωνη ομάδα Slack περί ανάπτυξης εφαρμογών Android
 baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       Alex Styl
+  url:        http://alexstyl.com 
 
 # Gems
 gems:
