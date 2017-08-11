@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  
-  {% include head.html %}
+<html lang="en">
 
-  <body>
-    {% include page-header.html %}
+	{% if page.title != 'index' %}
+	    {% include head.html %}
+	{% else %}
+		{% include index_head.html %}
+	{% endif %}
 
-    <section class="main-content">
-      
-      {{ content }}
+<body id="page-top" class="landing-page">
 
-      {% include page-footer.html %}
+	{% if page.title != 'index' %}
+	    {% include blog_header.html %}
+	{% endif %}
 
-    </section>
+    {{ content }}
 
-  </body>
+	{% if page.title != 'index' %}
+	    {% include foot.html %}
+	{% else %}
+		{% include index_foot.html %}
+	{% endif %}
+
+</body>
 </html>
