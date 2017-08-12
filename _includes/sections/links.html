@@ -2,7 +2,7 @@
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1><span data-i18n="link.link">Link</span></h1>
+            <h1><span data-i18n="link.link">Links</span></h1>
         </div>
     </div>
     <div class="row">
@@ -12,10 +12,10 @@
             {% if forloop.last == forloop.first %}
         <div class="col-sm-4 col-sm-offset-4 wow zoomIn">
                 {% else %}
-        <div class="col-sm-4 wow {% if loopindex != 0 %} col-sm-offset-4 fadeInRight {% else %} zoomIn {% endif %}">
+        <div class="col-sm-4 wow {% if loopindex != 0 %} col-sm-offset-4 zoomIn {% else %} zoomIn {% endif %}">
             {% endif %}
         {% else %}
-        <div class="col-sm-4 wow {% if loopindex == 1 %} fadeInLeft {% else if loopindex == 2 %} zoomIn {% else %} fadeInRight {% endif %}">
+        <div class="col-sm-4 wow {% if loopindex == 1 %} zoomIn {% else if loopindex == 2 %} zoomIn {% else %} fadeInRight {% endif %}">
         {% endif %}
         <div class="team-member">
             <h4><span class="navy">{{ link.last_name }}</span> {{ link.first_name }}</h4>
@@ -32,7 +32,7 @@
     </div>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-            <p id="jalpc_site_pv"><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
+            <p><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
         </div>
     </div>
 </div>

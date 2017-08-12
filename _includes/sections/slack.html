@@ -5,24 +5,22 @@
             <h1><span data-i18n="career.my_career">Slack</span></h1>
         </div>
     </div>
-    <div class="row features-block">
-        <div class="col-lg-12">
-            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-            {% for career in site.data.index.careers %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
-                <div class="vertical-timeline-block">
-                    <div class="vertical-timeline-icon navy-bg wow rotateIn">
-                        <i class="fa {{ career.icon }}"></i>
-                    </div>
-                    <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
-                        <h2><span data-i18n="career.{{ career.name.i18n }}">{{ career.name.detail }}</span></h2>
-                        <p><span data-i18n="career.{{ career.desc.i18n }}">{{ career.desc.detail }} </span></p>
-                        <span class="vertical-date"><span data-i18n="career.{{ career.date.i18n }}"> {{ career.date.detail }} </span>
-                        <br/> <small><span data-i18n="career.{{ career.job.i18n }}">{{ career.job.detail }}</span></small> </span>
-                    </div>
-                </div>
-            {% endfor %}
-            </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center m-t-md m-b-lg">
+            <p>
+                Developers, designers και οποιοσδήποτε ασχολείται σοβαρά με την πλατφόρμα είναι ευπρόσδεκτος! Στην ομάδα Slack μπορείτε να μιλήσετε live με άτομα του community σχετικά με διάφορα θέματα όπως αρχιτεκτονική εφαρμογών, unit testing, design (UI/UX) ή να λάβετε feedback πάνω στις εφαρμογές που έχετε σε κάποιο store.
+            </p>
+    </div>
+    <div class="row">
+        <div class="col-md-12 m-b-xs text-center wow zoomIn">
+                <p>
+                    <a class="btn btn-primary btn-lg" href="docs.google.com/forms/d/e/1FAIpQLSe2YJo5JOUzf6gKL5mHqkCoVuMkHoSl1SnlB3RuL1iKXy7xNQ/viewform">Sign up form</a>
+                </p>
+        </div>
+        <div class="col-md-12 text-center m-b-lg">
+                <p>
+                    <a class="btn btn-default btn-md" href="https://gdgandroidathens.slack.com"><span class="fa fa-slack"></span> Enter</a>
+                </p>
         </div>
     </div>
 </div>

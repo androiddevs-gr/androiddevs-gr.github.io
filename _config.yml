@@ -21,13 +21,6 @@ author:  # change following line to your infomation.
   facebook_username: GDGandroidAthens  # Leave blank if you don't have now
   twitter_username: gdgandroidATH  # Leave blank if you don't have now
   email: admin@gdgandroidathens.com  # Leave blank if you don't have now
-  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
-  skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
   desc: GDG Android Athens is an independent group of Android Developers in Athens that meet regularly in order to network and exchange ideas or knowledge around Android development.  # Describe yourself.
 
 # analytics
