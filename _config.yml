@@ -14,7 +14,7 @@ author:  # change following line to your infomation.
   name: GDG Android Athens  # Be used at blog posts' author.
   first_name: GDG Android Athens  # Be used at index page about me section.
   last_name:  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/avatar.png  # upload your avatar at directory and edit it.
   meetup_username: GDG-Android-Athens
   github_username: gdgandroidathens  # Leave blank if you don't have now
   linkedin_id:  # Leave blank if you don't have now
